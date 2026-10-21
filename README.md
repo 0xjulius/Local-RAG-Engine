@@ -1,12 +1,15 @@
 # Local RAG (Retrieval-Augmented Generation) Engine
 🇬🇧 [English](README-ENG.md) · 🇫🇮 [SUOMI](README.md)
 
-RAG (Retrieval-Augmented Generation) on arkkitehtuuri, jossa paikallinen kielimalli (LLM) hakee reaaliaikaisesti faktoja yrityksen omista dokumenteista ja muodostaa vastauksen niiden pohjalta pelkän ulkoa opitun tiedon sijaan.
+RAG (Retrieval-Augmented Generation) on arkkitehtuuri, jossa paikallinen kielimalli (LLM) hakee reaaliaikaisesti ja tietoturvallisesti faktoja yrityksen omista dokumenteista sekä muodostaa vastauksen paikallisesti ilman internet-yhteyksiä lataamiesi tietojen pohjalta.
 
 Esitä kysymyksiä omista PDF-dokumenteistasi ja saa vastaukset lähdeviitteineen niin, että kaikki dokumentit, upotukset ja kehotteet pysyvät omalla laitteistollasi.
 
 > **"Tietosuoja on suurin yksittäinen este tekoälyn käyttöönotolle yrityksissä Euroopassa ja Suomessa."**
 > Yritysten on hallittava, suojattava ja omistettava datansa täysin itse. **Local RAG Engine** vastaa tähän haasteeseen: se on täysin paikallinen RAG-alusta (Retrieval-Augmented Generation) ilman pilvirajapintoja, telemetriaa tai internetyhteyden tarvetta ajon aikana.
+
+![screenshot](sc-main.png)
+Kuvakaappaus: Käyttöliitymän ulkoasu (localhost).
 
 ## 🎯 Motivaatio: miksi paikallinen RAG?
 
@@ -39,8 +42,8 @@ Tämä projekti osoittaa, että **omaa dataa ei tarvitse lähettää kolmannen o
 
 > Käyttöliittymä on tällä hetkellä suomeksi.
 
----
-
+![screenshot](sc.png)
+Kuvakaappaus: Käyttöliitymän toiminnallisuuden esittäminen (localhost).
 ## 🛠️ Arkkitehtuuri
 
 ```text
@@ -197,6 +200,3 @@ FastAPI tarjoaa interaktiivisen API-dokumentaation osoitteessa `/docs` portissa 
 ## 📄 Lisenssi
 
 Tämä projekti on lisensoitu MIT-lisenssillä. Katso [LICENSE](LICENSE).
-## 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
