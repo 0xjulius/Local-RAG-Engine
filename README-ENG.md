@@ -1,6 +1,9 @@
 
 
 # Local RAG Engine
+🇬🇧 [English](README-ENG.md) · 🇫🇮 [SUOMI](README.md)
+
+RAG (Retrieval-Augmented Generation) is an architecture where a local Large Language Model (LLM) retrieves facts in real-time from an enterprise's own documents and generates responses based on them, rather than relying solely on pre-trained knowledge.
 
 > **"Data privacy is the #1 blocker for enterprise AI adoption in Europe and Finland."**
 > Companies must manage, secure and keep full ownership of their data. **LocalVault RAG Engine** tackles this with a fully local Retrieval-Augmented Generation (RAG) platform: no cloud APIs, no telemetry, and no internet access needed at runtime.
